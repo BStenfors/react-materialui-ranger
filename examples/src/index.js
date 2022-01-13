@@ -13,7 +13,7 @@ const App = () => {
             },
             input: {}
         },
-        to: {
+        separator: {
             container: {
                 float: 'left',
                 marginTop: 15,
