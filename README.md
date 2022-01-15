@@ -1,4 +1,10 @@
 # A Simple Two Input Material UI Range Component
+### This package takes advantage of the React MaterialUI framework v5.2.8 for components.
+
+## Installation
+```
+npm i -S react-two-input-ranger
+```
 
 ## Example Implementation
 
@@ -24,7 +30,7 @@
 ## CSS Override classes
 
 | Parent Classname | Child Classname | Description |
-| --------- | :---------- | :---------- |
+| :-------- | :---------- | :---------- |
 | main      | | |
 | main | container | The main container that holds all other elements |
 | controlsContainer      | | The container that holds all of the inputs |
