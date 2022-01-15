@@ -1,6 +1,6 @@
-#A Simple Two Input Material UI Range Component
+# A Simple Two Input Material UI Range Component
 
-##Example Implementation
+## Example Implementation
 
 ```
 <Ranger
@@ -21,7 +21,7 @@
 />
 ```
 
-##CSS Override classes
+## CSS Override classes
 
 | Parent Classname | Child Classname | Description |
 | --------- | :---------- | :---------- |
@@ -38,7 +38,7 @@
 | separator      | container | the container that holds the Separator component |
 | separator      | typography | the separator text that is displayed |
 
-###Default Styles
+### Default Styles
 ```
 {
     main: {
