@@ -3,40 +3,11 @@ import {render} from "react-dom";
 import Ranger from "../../src";
 
 const App = () => {
-    let styles = {
-        controlsContainer: {
-            padding: 20
-        },
-        start: {
-            container: {
-                float: 'left'
-            },
-            input: {}
-        },
-        separator: {
-            container: {
-                float: 'left',
-                marginTop: 15,
-                paddingLeft: 10,
-                paddingRight: 10
-            },
-            typography: {
-                color: 'red'
-            }
-        },
-        end: {
-            container: {
-
-            },
-            input: {
-
-            }
-        }
-
-    }
     return (
         <Ranger
-            styles={styles}
+            startInputProps={{error: false}}
+            endInputProps={{error: false}}
+            errorMessage="This is an error"
             startPlaceholder="Start"
             endPlaceholder="End"
             separatorValueVariant="subtitle1"

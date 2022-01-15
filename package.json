@@ -1,6 +1,6 @@
 {
   "name": "react-two-input-ranger",
-  "version": "0.0.4",
+  "version": "0.0.5",
   "description": "A react component for handling range of two inputs",
   "main": "dist/index.js",
   "scripts": {
